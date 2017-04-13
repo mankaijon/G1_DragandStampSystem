@@ -41,6 +41,7 @@ Design tree<br />
       -	v10_tb folder contains the testbench source and format .do files for waveform (ModelSim)
 <br />
 How to use<br />
+
 If you wish to properly build the main system:
   - Navitage to /src/Draw_stamp and open project_tracking.xpr with Vivado
   - Generate bitstream with Vivado and export to SDK
@@ -48,6 +49,7 @@ If you wish to properly build the main system:
   - Run the application
   
 Author<br />
+
   Qijun Wen<br />
   Weigen Yuan<br />
   Brandon Norberto<br />
