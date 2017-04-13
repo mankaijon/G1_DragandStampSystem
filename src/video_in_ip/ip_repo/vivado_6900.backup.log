@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 27 21:14:19 2017
+# Process ID: 6900
+# Current directory: C:/Users/jon/ECE532/video_in_ip/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7756 C:\Users\jon\ECE532\video_in_ip\ip_repo\edit_video_in_ip_v1_0.xpr
+# Log file: C:/Users/jon/ECE532/video_in_ip/ip_repo/vivado.log
+# Journal file: C:/Users/jon/ECE532/video_in_ip/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 758.129 ; gain = 138.078
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/synth/v_vid_in_axi4s_0.v" into library work [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/synth/v_vid_in_axi4s_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0.v" into library work [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_coupler.v" into library work [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_coupler.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_formatter.v" into library work [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_formatter.v:1]
+INFO: [HDL 9-1061] Parsing VHDL file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/blk_mem_gen_v8_3_3/hdl/blk_mem_gen_v8_3.vhd" into library blk_mem_gen_v8_3_3 [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/blk_mem_gen_v8_3_3/hdl/blk_mem_gen_v8_3.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/blk_mem_gen_v8_3_3/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd" into library blk_mem_gen_v8_3_3 [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/blk_mem_gen_v8_3_3/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0.vhd" into library fifo_generator_v13_0_3 [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd" into library fifo_generator_v13_0_3 [c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0_vhsyn_rfs.vhd:1]
+[Mon Feb 27 21:19:30 2017] Launched synth_1...
+Run output will be captured here: C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.runs/synth_1/runme.log
+launch_runs impl_1
+[Mon Feb 27 21:21:53 2017] Launched impl_1...
+Run output will be captured here: C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.runs/impl_1/runme.log
+ipx::open_ipxact_file C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/component.xml
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0_M00_AXIS.v'.
+WARNING: [IP_Flow 19-4308] Project file 'src/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci' is not found in the component files. Please add the packaging file if necessary.
+WARNING: [IP_Flow 19-4308] Project file 'src/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci' is not found in the component files. Please add the packaging file if necessary.
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0_M00_AXIS.v'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0'
+remove_files C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci
+file delete -force C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.ip_user_files/ip/v_vid_in_axi4s_0 C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.ip_user_files/sim_scripts/v_vid_in_axi4s_0
+create_ip -name v_vid_in_axi4s -vendor xilinx.com -library ip -version 4.0 -module_name v_vid_in_axi4s_0
+set_property -dict [list CONFIG.C_HAS_ASYNC_CLK {1}] [get_ips v_vid_in_axi4s_0]
+generate_target {instantiation_template} [get_files c:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'v_vid_in_axi4s_0'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  c:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci]
+generate_target all [get_files  c:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'v_vid_in_axi4s_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'v_vid_in_axi4s_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'v_vid_in_axi4s_0'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'v_vid_in_axi4s_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'v_vid_in_axi4s_0'...
+export_ip_user_files -of_objects [get_files c:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files c:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0.xci] -directory C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.ip_user_files -ipstatic_source_dir C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.ip_user_files/ipstatic -force -quiet
+reset_run synth_1
+launch_runs synth_1
+[Mon Feb 27 21:30:32 2017] Launched synth_1...
+Run output will be captured here: C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 27 21:33:04 2017...

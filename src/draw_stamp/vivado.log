@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 24 13:24:07 2017
+# Process ID: 992
+# Current directory: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9172 C:\Users\jon\ECE532\video_in_with_tracking\project_tracking - Copy\project_tracking.xpr
+# Log file: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/vivado.log
+# Journal file: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/video_in_ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/tracking/trackin_IP/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1000.953 ; gain = 383.328
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:microblaze:9.6 - microblaze_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:clk_wiz:5.3 - clk_wiz_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M
+Adding cell -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- user:user:Tracking_IP:1.0 - Tracking_IP_0
+Adding cell -- user:user:video_in_ip:1.0 - video_in_ip_0
+Adding cell -- user:user:Tracking_IP:1.0 - Tracking_IP_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Excluding </Tracking_IP_0/S00_AXI/S00_AXI_reg> from </axi_vdma_1/Data_MM2S>
+Excluding </Tracking_IP_1/S00_AXI/S00_AXI_reg> from </axi_vdma_1/Data_MM2S>
+Excluding </axi_tft_0/S_AXI_MM/Reg> from </axi_vdma_1/Data_MM2S>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_vdma_1/Data_MM2S>
+Excluding </axi_vdma_0/S_AXI_LITE/Reg> from </axi_vdma_1/Data_MM2S>
+Excluding </axi_vdma_1/S_AXI_LITE/Reg> from </axi_vdma_1/Data_MM2S>
+Excluding </Tracking_IP_0/S00_AXI/S00_AXI_reg> from </axi_vdma_1/Data_S2MM>
+Excluding </Tracking_IP_1/S00_AXI/S00_AXI_reg> from </axi_vdma_1/Data_S2MM>
+Excluding </axi_tft_0/S_AXI_MM/Reg> from </axi_vdma_1/Data_S2MM>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_vdma_1/Data_S2MM>
+Excluding </axi_vdma_0/S_AXI_LITE/Reg> from </axi_vdma_1/Data_S2MM>
+Excluding </axi_vdma_1/S_AXI_LITE/Reg> from </axi_vdma_1/Data_S2MM>
+Excluding </axi_tft_0/S_AXI_MM/Reg> from </axi_vdma_0/Data_S2MM>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_vdma_0/Data_S2MM>
+Excluding </axi_vdma_0/S_AXI_LITE/Reg> from </axi_vdma_0/Data_S2MM>
+Excluding </Tracking_IP_0/S00_AXI/S00_AXI_reg> from </axi_vdma_0/Data_S2MM>
+Excluding </Tracking_IP_1/S00_AXI/S00_AXI_reg> from </axi_vdma_0/Data_S2MM>
+Excluding </axi_vdma_1/S_AXI_LITE/Reg> from </axi_vdma_0/Data_S2MM>
+Excluding </axi_tft_0/S_AXI_MM/Reg> from </axi_tft_0/Video_data>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_tft_0/Video_data>
+Excluding </axi_vdma_0/S_AXI_LITE/Reg> from </axi_tft_0/Video_data>
+Excluding </Tracking_IP_0/S00_AXI/S00_AXI_reg> from </axi_tft_0/Video_data>
+Excluding </Tracking_IP_1/S00_AXI/S00_AXI_reg> from </axi_tft_0/Video_data>
+Excluding </axi_vdma_1/S_AXI_LITE/Reg> from </axi_tft_0/Video_data>
+Successfully read diagram <design_1> from BD file <C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1020.832 ; gain = 19.371
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 24 15:16:03 2017...

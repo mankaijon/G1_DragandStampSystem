@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 24 00:26:06 2017
+# Process ID: 2164
+# Current directory: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent644 C:\Users\jon\ECE532\video_in_with_tracking\project_tracking - Copy\project_tracking.xpr
+# Log file: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/vivado.log
+# Journal file: C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/video_in_ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/tracking/trackin_IP/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 997.672 ; gain = 371.863
+update_compile_order -fileset sources_1
+file copy -force {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.runs/impl_1/design_1_wrapper.sysdef} {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.hdf}
+
+file copy -force {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.runs/impl_1/design_1_wrapper.sysdef} {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk/design_1_wrapper.hdf}
+
+launch_sdk -workspace {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk} -hwspec {C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk/design_1_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk -hwspec C:/Users/jon/ECE532/video_in_with_tracking/project_tracking - Copy/project_tracking.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 24 00:29:37 2017...

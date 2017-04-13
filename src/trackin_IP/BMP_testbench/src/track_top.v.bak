@@ -1,0 +1,88 @@
+module track(
+    input clk,
+    input resetn,
+	input s,
+    input [31:0] data_in,
+    input valid,
+    input [31:0] ref_color,
+    input [31:0] threshold,
+    output  done,
+    output [31:0] x_pos,
+    output [31:0] y_pos
+    );
+
+	//fsm to datapath
+	wire reset_y;
+	wire reset_x;
+	wire reset_x_sum;	
+	wire reset_y_sum;
+	wire reset_count;
+	wire reset_x_pos;
+	wire reset_y_pos;
+	wire enable_x;
+	wire enable_y;	
+	wire enable_x_sum;	
+	wire enable_y_sum;	
+	wire enable_x_pos;	
+	wire enable_y_pos;
+	
+	//datapath to fsm
+	wire x_lt_640;
+	wire x_eq_640;
+	wire y_lt_480;
+	wire found;
+		
+	module tracking_fsm(
+		resetn,
+		clk,
+		s,
+		valid,
+		found,
+		x_lt_640,
+		x_eq_640,
+		y_lt_480,
+		reset_x,
+		reset_y,
+		reset_x_sum,	
+		reset_y_sum,
+		reset_count,
+		done,
+		reset_x_pos,
+		reset_y_pos,
+		enable_x,	
+		enable_y,	
+		enable_x_sum,	
+		enable_y_sum,	
+		enable_x_pos,	
+		enable_y_pos
+	);
+	
+	module datapath(
+		clk,
+		data_in,
+		ref_color,
+		threshold,
+		reset_x,
+		reset_y,
+		reset_x_sum,	
+		reset_y_sum,
+		reset_count,
+		reset_x_pos,
+		reset_y_pos,
+		enable_x,	
+		enable_y,	
+		enable_x_sum,	
+		enable_y_sum,	
+		enable_x_pos,	
+		enable_y_pos,
+		x_lt_640,
+		x_eq_640,
+		y_lt_480,
+		x_pos,
+		y_pos,
+		found
+	);
+	
+	
+	
+endmodule

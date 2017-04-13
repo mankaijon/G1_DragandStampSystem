@@ -1,0 +1,160 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 27 23:10:33 2017
+# Process ID: 2760
+# Current directory: C:/Users/jon/ECE532/video_in_ip/test/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9156 C:\Users\jon\ECE532\video_in_ip\test\project_1\project_1.xpr
+# Log file: C:/Users/jon/ECE532/video_in_ip/test/project_1/vivado.log
+# Journal file: C:/Users/jon/ECE532/video_in_ip/test/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+remove_files C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd
+launch_simulation
+source tb.tcl
+run 20 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+restart
+run 2000 us
+close_sim
+launch_simulation
+source tb.tcl
+run 2000 us
+run 2000 us
+run 20 ms
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+restart
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+open_project C:/Users/jon/ECE532/video_in_ip/ip_repo/edit_video_in_ip_v1_0.xpr
+update_compile_order -fileset sources_1
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project edit_video_in_ip_v1_0
+current_project project_1
+export_ip_user_files -of_objects [get_ips  video_in_ip_0] -no_script -reset -quiet
+upgrade_ip -vlnv user:user:video_in_ip:1.0 [get_ips  video_in_ip_0] -log ip_upgrade.log
+generate_target all [get_files  C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci] -directory C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+run 200 us
+restart
+run 200 us
+current_project edit_video_in_ip_v1_0
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project edit_video_in_ip_v1_0
+current_project project_1
+export_ip_user_files -of_objects [get_ips  video_in_ip_0] -no_script -reset -quiet
+upgrade_ip -vlnv user:user:video_in_ip:1.0 [get_ips  video_in_ip_0] -log ip_upgrade.log
+generate_target all [get_files  C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/video_in_ip_0.xci] -directory C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+restart
+run 200 us
+restart
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+run 200 us
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+restart
+run 200 us
+current_project edit_video_in_ip_v1_0
+current_project project_1
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+report_ip_status -name ip_status 
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+restart
+run 200 us
+close_sim
+launch_simulation
+source tb.tcl
+run 200 us
+close_sim
+close_project
+launch_simulation
+source video_in_ip_v1_0.tcl
+run 200 us
+run 200 us
+close_sim

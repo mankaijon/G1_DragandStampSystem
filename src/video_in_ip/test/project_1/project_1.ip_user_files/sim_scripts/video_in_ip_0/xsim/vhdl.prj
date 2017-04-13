@@ -1,0 +1,4 @@
+vhdl fifo_generator_v13_0_3 "../../../ipstatic/fifo_generator_v13_0_3/simulation/fifo_generator_vhdl_beh.vhd" 
+vhdl fifo_generator_v13_0_3 "../../../ipstatic/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0_rfs.vhd" 
+
+nosort

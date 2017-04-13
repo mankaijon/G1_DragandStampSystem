@@ -1,0 +1,12 @@
+0.4
+2016.2
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sim_1/new/tb.v,1488259926,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/hdl/video_in_ip_v1_0.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/sim/video_in_ip_0.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_AV_Config.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_Controller.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_OV7670_RGB565_VGA_Config.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/capture.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/debounce.v,1488257340,verilog,,,,,,,,,,,
+C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/ov7670_top.v,1488257340,verilog,,,,,,,,,,,

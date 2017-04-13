@@ -1,0 +1,66 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_coupler.v" into library v_vid_in_axi4s_v4_0_3
+INFO: [VRFC 10-311] analyzing module v_vid_in_axi4s_v4_0_3_coupler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0_formatter.v" into library v_vid_in_axi4s_v4_0_3
+INFO: [VRFC 10-311] analyzing module v_vid_in_axi4s_v4_0_3_formatter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic/v_vid_in_axi4s_v4_0_3/hdl/verilog/v_vid_in_axi4s_v4_0.v" into library v_vid_in_axi4s_v4_0_3
+INFO: [VRFC 10-311] analyzing module v_vid_in_axi4s_v4_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/edit_video_in_ip_v1_0.srcs/sources_1/ip/v_vid_in_axi4s_0/sim/v_vid_in_axi4s_0.v" into library v_vid_in_axi4s_v4_0_3
+INFO: [VRFC 10-311] analyzing module v_vid_in_axi4s_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2C_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_OV7670_RGB565_VGA_Config.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2C_OV7670_RGB565_VGA_Config
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/I2C_AV_Config.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2C_AV_Config
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/capture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module capture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/ov7670_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ov7670_top
+INFO: [VRFC 10-2458] undeclared symbol config_finished, assumed default net type wire [C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/src/ov7670_top.v:81]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/hdl/video_in_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_in_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sources_1/ip/video_in_ip_0/sim/video_in_ip_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_in_ip_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic/fifo_generator_v13_0_3/simulation/fifo_generator_vhdl_beh.vhd" into library fifo_generator_v13_0_3
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_bhv_as
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_bhv_ss
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_bhv_preload0
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_conv
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_axic_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_vhdl_beh
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jon/ECE532/video_in_ip/test/project_1/project_1.ip_user_files/ipstatic/fifo_generator_v13_0_3/hdl/fifo_generator_v13_0_rfs.vhd" into library fifo_generator_v13_0_3
+INFO: [VRFC 10-307] analyzing entity input_blk
+INFO: [VRFC 10-307] analyzing entity output_blk
+INFO: [VRFC 10-307] analyzing entity shft_wrapper
+INFO: [VRFC 10-307] analyzing entity shft_ram
+INFO: [VRFC 10-307] analyzing entity wr_pf_as
+INFO: [VRFC 10-307] analyzing entity wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity rd_pe_as
+INFO: [VRFC 10-307] analyzing entity rd_pe_ss
+INFO: [VRFC 10-307] analyzing entity synchronizer_ff
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity bin_cntr
+INFO: [VRFC 10-307] analyzing entity clk_x_pntrs_builtin
+INFO: [VRFC 10-307] analyzing entity logic_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth
+INFO: [VRFC 10-307] analyzing entity builtin_top
+INFO: [VRFC 10-307] analyzing entity reset_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_low_latency
+INFO: [VRFC 10-307] analyzing entity builtin_top_v6
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_builtin
+INFO: [VRFC 10-307] analyzing entity bram_sync_reg
+INFO: [VRFC 10-307] analyzing entity bram_fifo_rstlogic
+INFO: [VRFC 10-307] analyzing entity reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity axi_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3_synth
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v13_0_3

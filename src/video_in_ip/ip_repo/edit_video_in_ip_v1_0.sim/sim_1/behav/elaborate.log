@@ -1,0 +1,40 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto c483d99e1608417d94bd0e54eb9bae8d --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_0_3 -L v_vid_in_axi4s_v4_0_3 -L unisims_ver -L unimacro_ver -L secureip --snapshot video_in_ip_v1_0_behav xil_defaultlib.video_in_ip_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 25 for port dout [C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/ov7670_top.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port vid_io_in_ce [C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0.v:88]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port vid_io_in_reset [C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0.v:89]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port aclken [C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0.v:98]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port axis_enable [C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/hdl/video_in_ip_v1_0.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/capture.v" Line 1. Module capture doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jon/ECE532/video_in_ip/ip_repo/video_in_ip_1.0/src/capture.v" Line 1. Module capture doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.capture
+Compiling module xil_defaultlib.I2C_OV7670_RGB565_VGA_Config
+Compiling module xil_defaultlib.I2C_Controller
+Compiling module xil_defaultlib.I2C_AV_Config
+Compiling module xil_defaultlib.ov7670_top
+Compiling module v_vid_in_axi4s_v4_0_3.v_vid_in_axi4s_v4_0_3_formatter(...
+Compiling architecture behavioral of entity fifo_generator_v13_0_3.fifo_generator_v13_0_3_bhv_as [\fifo_generator_v13_0_3_bhv_as(c...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_3.fifo_generator_v13_0_3_bhv_preload0 [\fifo_generator_v13_0_3_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_3.fifo_generator_v13_0_3_conv [\fifo_generator_v13_0_3_conv(c_d...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_3.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(c_data_...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_3.fifo_generator_v13_0_3 [\fifo_generator_v13_0_3(c_data_c...]
+Compiling module v_vid_in_axi4s_v4_0_3.v_vid_in_axi4s_v4_0_3_coupler(C_...
+Compiling module v_vid_in_axi4s_v4_0_3.v_vid_in_axi4s_v4_0_3(C_FAMILY="...
+Compiling module xil_defaultlib.v_vid_in_axi4s_0
+Compiling module xil_defaultlib.video_in_ip_v1_0
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot video_in_ip_v1_0_behav

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 15 21:14:38 2017
+# Process ID: 6320
+# Current directory: C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7172 C:\Users\jon\ECE532\tracking\trackin_IP\ip_repo\edit_Tracking_IP_v1_0.xpr
+# Log file: C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/vivado.log
+# Journal file: C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/edit_Tracking_IP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 725.063 ; gain = 129.012
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/component.xml
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0'
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/hdl/Tracking_IP_v1_0.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/hdl/Tracking_IP_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/hdl/Tracking_IP_v1_0_S00_AXI.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/hdl/Tracking_IP_v1_0_S00_AXI.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/abs.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/abs.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/datapath.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/datapath.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/fsm.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/fsm.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/track_top.v" into library work [C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/Tracking_IP_1.0/src/track_top.v:1]
+[Wed Mar 15 21:16:00 2017] Launched synth_1...
+Run output will be captured here: C:/Users/jon/ECE532/tracking/trackin_IP/ip_repo/edit_Tracking_IP_v1_0.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 15 21:17:16 2017...
