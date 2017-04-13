@@ -42,7 +42,15 @@ Design tree<br />
 <br />
 How to use<br />
 
-If you wish to properly build the main system:<br />
+If you wish to properly build the main system:
   - Navitage to /src/Draw_stamp and open project_tracking.xpr with Vivado
   - Generate bitstream with Vivado and export to SDK
-  - Within the SDK there could be multiple test projects, open up test1 and the associated support package (test1_bsd).
+  - Open up test application and the associated support package (test_bsd).
+  - Run the application
+  
+Author<br />
+
+Qijun Wen<br />
+Weigen Yuan<br />
+Brandon Norberto<br />
+
