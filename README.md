@@ -4,7 +4,7 @@ ECE532 Group1 project<br />
 Overview<br />
 The goal of the project was to create a video tracking system that can track two unique colors using a PMOD camera. The video frames are processed to detect the unique colors and track the center of each color to mark the top left and bottom right corners of the stamp that will be drawn. The design would then take a stamp from memory and scale it to fit between the two marked corners, and then write it to the display buffer to be displayed on the screen. The user would be able to select between stamps using a user interface displayed on the side.<br />
 <br />
-Design tree
+Design tree<br />
   - /doc: presentation slide and final group report
   - /src
     - /src/Draw_stamp: main project
