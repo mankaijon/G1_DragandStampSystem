@@ -50,7 +50,7 @@ If you wish to properly build the main system:
   
 Author<br />
 
-Qijun Wen<br />
-Weigen Yuan<br />
-Brandon Norberto<br />
+  Qijun Wen<br />
+  Weigen Yuan<br />
+  Brandon Norberto<br />
 
