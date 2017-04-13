@@ -11,12 +11,12 @@ Design tree<br />
       -	/project_tracking.sdk
       -	/test: the SDK application, including the C source code
       -	resource_utilization.txt: the resource utilization report
-    /src/Video_in_IP: Video in IP
+    - /src/Video_in_IP: Video in IP
       -	/source: the Verilog file to configure and capture the pixel date from PMOD camera.
       -	/ ip_repo: 
       -	/ video_in_ip_1.0: the IP directory
       -	/ edit_video_in_ip_v1_0.xpr: the Vivado project for Video in IP
-    /src/Tracking_IP: 
+    - /src/Tracking_IP: 
       -	/source: the Verilog file of hardware implementation of tracking algorithm
       -	fsm.v : control logic
       -	datapath.v: datapath circuit of the tracking logic
@@ -24,8 +24,7 @@ Design tree<br />
       -	/Tracking_IP_1.0: IP directory
       -	/ edit_video_in_ip_v1_0.xpr: the Vivado project for Video in IP
       -	BMP_testbench: the BMP testbench for tracking logic
-
-    /Rescale_IP
+    - /Rescale_IP
       -	rescale_ip foler: 
       -	helloworld.c is C program used to control the system in SDK tool
       -	pin_assignment_video_in.xdc is the pin assignment sheet for the rescaling system
